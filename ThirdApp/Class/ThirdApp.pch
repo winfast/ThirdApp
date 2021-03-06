@@ -1,0 +1,22 @@
+//
+//  ThirdApp.pch
+//  ThirdApp
+//
+//  Created by QinChuancheng on 2021/3/6.
+//
+
+#ifndef ThirdApp_pch
+#define ThirdApp_pch
+
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <YYWebImage/YYWebImage.h>
+#import <HBDNavigationBar/UIViewController+HBD.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+
+#import "ASMacros.h"
+
+#endif /* ThirdApp_pch */

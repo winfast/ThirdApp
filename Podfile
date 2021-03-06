@@ -8,7 +8,7 @@ inhibit_all_warnings!
 
 target 'ThirdApp' do
   # Pods for ThirdApp
-  
+  pod 'HBDNavigationBar'
   # 模型转换
   pod 'MJExtension'
   # 刷新控件
@@ -27,6 +27,7 @@ target 'ThirdApp' do
   pod 'MLeaksFinder',               '1.0.0'
   # 网络监测
 #  pod 'Reachability'
+ # pod 'BGFMDB'
   pod 'BGFMDB'
 
 end

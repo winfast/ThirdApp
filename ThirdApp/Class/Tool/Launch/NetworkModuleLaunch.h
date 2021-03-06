@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import "LaunchCommandHeader.h"
-#import <GHNetworkModule/GHNetworkReachabilityManager.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -21,9 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)stopMonitoring;
 
 - (void)logout;
-
-
-@property (nonatomic, copy) void (^upadteNetworkStatus)(GHNetworkStatus status);
 
 @end
 

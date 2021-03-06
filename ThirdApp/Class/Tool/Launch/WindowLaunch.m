@@ -8,7 +8,6 @@
 
 #import "WindowLaunch.h"
 #import <UIKit/UIKit.h>
-#import "GHUserInfo.h"
 
 @interface WindowLaunch ()
 
@@ -35,17 +34,8 @@
 
 
 - (void)setRootViewControllerWithWindow:(UIWindow *)window {
-	if (GHUserInfo.share.isLogin) {
-		UITabBarController *tab = [[NSClassFromString(@"GHTabBarController") alloc] init];
-		window.rootViewController = tab;
-	} else {
-		UIViewController *vc = [[NSClassFromString(@"GHLoginHomeViewController") alloc] init];
-		UINavigationController *nav = [[NSClassFromString(@"GHNavigationController") alloc] initWithRootViewController:vc];
-		if (GHUserInfo.share.region.length > 0) {
-			[nav pushViewController:[[NSClassFromString(@"GHLoginViewController") alloc] init] animated:NO];
-		}
-		window.rootViewController = nav;
-	}
+    UITabBarController *tab = [[NSClassFromString(@"GHTabBarController") alloc] init];
+    window.rootViewController = tab;
 }
 
 // MARK: Protocol

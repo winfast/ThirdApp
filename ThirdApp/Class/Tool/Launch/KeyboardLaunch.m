@@ -7,7 +7,7 @@
 
 #import "KeyboardLaunch.h"
 #import <IQKeyboardManager.h>
-#import "GHKeyboardManager.h"
+#import "ASMacros.h"
 
 @implementation KeyboardLaunch
 
@@ -28,10 +28,10 @@
     IQKeyboardManager *manager = IQKeyboardManager.sharedManager;
     manager.enable = YES;
     manager.shouldResignOnTouchOutside = YES;
-    NSArray *ignores = @[NSClassFromString(@"GHVerificationCodeViewController")
-                         ];
-    [[manager disabledToolbarClasses] addObjectsFromArray:ignores];
-    [[manager disabledDistanceHandlingClasses] addObjectsFromArray:ignores];
+//    NSArray *ignores = @[NSClassFromString(@"GHVerificationCodeViewController")
+//                         ];
+//    [[manager disabledToolbarClasses] addObjectsFromArray:ignores];
+//    [[manager disabledDistanceHandlingClasses] addObjectsFromArray:ignores];
 	manager.placeholderColor = ASColorHex(0xC1CCC9);
 	manager.placeholderFont = ASFont(14.0);
 	manager.keyboardDistanceFromTextField = 50;

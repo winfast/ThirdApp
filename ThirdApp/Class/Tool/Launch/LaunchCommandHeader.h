@@ -23,10 +23,6 @@
 - (void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *_Nonnull)deviceToken;
 - (void)didFailToRegisterForRemoteNotificationsWithError:(NSError *_Nullable)error;
 //- (void)didReceiveRemoteNotification:(NSDictionary *_Nonnull)userInfo fetchCompletionHandler:(nonnull void (^)(UIBackgroundFetchResult nonnull))completionHandler;
-- (BOOL)application:(nonnull UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity restorationHandler:(nonnull void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler;
-
-// 推送
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo;
 
 @end
 

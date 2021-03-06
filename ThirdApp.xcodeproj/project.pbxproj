@@ -3,26 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042E495825F3BB2D00DA72B7 /* GHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E495425F3BB2D00DA72B7 /* GHTabBarController.m */; };
+		042E495925F3BB2D00DA72B7 /* GHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E495625F3BB2D00DA72B7 /* GHNavigationController.m */; };
+		042E495A25F3BB2D00DA72B7 /* GHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E495725F3BB2D00DA72B7 /* GHBaseViewController.m */; };
+		042E497425F3BB8000DA72B7 /* WindowLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E495D25F3BB7F00DA72B7 /* WindowLaunch.m */; };
+		042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E496625F3BB7F00DA72B7 /* KeyboardLaunch.m */; };
+		042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E497125F3BB8000DA72B7 /* LaunchHelper.m */; };
 		048F863025F389EC00D551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F862F25F389EC00D551C6 /* Assets.xcassets */; };
 		048F863325F389EC00D551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F863125F389EC00D551C6 /* LaunchScreen.storyboard */; };
-		048F864A25F38AB000D551C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864625F38AB000D551C6 /* ViewController.m */; };
 		048F864B25F38AB000D551C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864825F38AB000D551C6 /* main.m */; };
 		048F864C25F38AB000D551C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864925F38AB000D551C6 /* AppDelegate.m */; };
 		659401974D832F75D6552731 /* Pods_ThirdApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CEBE2DF7EAAA453D9D1994 /* Pods_ThirdApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042E495225F3BB2C00DA72B7 /* GHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabBarController.h; sourceTree = "<group>"; };
+		042E495325F3BB2C00DA72B7 /* GHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBaseViewController.h; sourceTree = "<group>"; };
+		042E495425F3BB2D00DA72B7 /* GHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabBarController.m; sourceTree = "<group>"; };
+		042E495525F3BB2D00DA72B7 /* GHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHNavigationController.h; sourceTree = "<group>"; };
+		042E495625F3BB2D00DA72B7 /* GHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHNavigationController.m; sourceTree = "<group>"; };
+		042E495725F3BB2D00DA72B7 /* GHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBaseViewController.m; sourceTree = "<group>"; };
+		042E495D25F3BB7F00DA72B7 /* WindowLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowLaunch.m; sourceTree = "<group>"; };
+		042E496325F3BB7F00DA72B7 /* LaunchCommandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCommandHeader.h; sourceTree = "<group>"; };
+		042E496625F3BB7F00DA72B7 /* KeyboardLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardLaunch.m; sourceTree = "<group>"; };
+		042E496825F3BB8000DA72B7 /* LaunchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchHelper.h; sourceTree = "<group>"; };
+		042E496B25F3BB8000DA72B7 /* WindowLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowLaunch.h; sourceTree = "<group>"; };
+		042E497125F3BB8000DA72B7 /* LaunchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchHelper.m; sourceTree = "<group>"; };
+		042E497225F3BB8000DA72B7 /* KeyboardLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardLaunch.h; sourceTree = "<group>"; };
+		042E4A0525F3BC1E00DA72B7 /* ASMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMacros.h; sourceTree = "<group>"; };
+		042E4A0825F3BD5600DA72B7 /* ThirdApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdApp.pch; sourceTree = "<group>"; };
 		048F862025F389EB00D551C6 /* ThirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F862F25F389EC00D551C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048F863225F389EC00D551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048F863425F389EC00D551C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048F864425F38AB000D551C6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		048F864625F38AB000D551C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		048F864725F38AB000D551C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		048F864825F38AB000D551C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048F864925F38AB000D551C6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24CEBE2DF7EAAA453D9D1994 /* Pods_ThirdApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +60,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042E495C25F3BB7F00DA72B7 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				042E497225F3BB8000DA72B7 /* KeyboardLaunch.h */,
+				042E496625F3BB7F00DA72B7 /* KeyboardLaunch.m */,
+				042E496325F3BB7F00DA72B7 /* LaunchCommandHeader.h */,
+				042E496825F3BB8000DA72B7 /* LaunchHelper.h */,
+				042E497125F3BB8000DA72B7 /* LaunchHelper.m */,
+				042E496B25F3BB8000DA72B7 /* WindowLaunch.h */,
+				042E495D25F3BB7F00DA72B7 /* WindowLaunch.m */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		042E4A2025F3C83100DA72B7 /* 趋势 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "趋势";
+			sourceTree = "<group>";
+		};
+		042E4A2125F3C83100DA72B7 /* 测量 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "测量";
+			sourceTree = "<group>";
+		};
+		042E4A2225F3C83100DA72B7 /* 历史 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "历史";
+			sourceTree = "<group>";
+		};
 		048F861725F389EB00D551C6 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +127,8 @@
 		048F864325F38AB000D551C6 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				042E4A0825F3BD5600DA72B7 /* ThirdApp.pch */,
+				042E4A0525F3BC1E00DA72B7 /* ASMacros.h */,
 				048F864825F38AB000D551C6 /* main.m */,
 				048F864425F38AB000D551C6 /* AppDelegate.h */,
 				048F864925F38AB000D551C6 /* AppDelegate.m */,
@@ -87,8 +142,9 @@
 		048F864525F38AB000D551C6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				048F864625F38AB000D551C6 /* ViewController.m */,
-				048F864725F38AB000D551C6 /* ViewController.h */,
+				042E4A2125F3C83100DA72B7 /* 测量 */,
+				042E4A2225F3C83100DA72B7 /* 历史 */,
+				042E4A2025F3C83100DA72B7 /* 趋势 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +152,12 @@
 		048F864F25F38AD400D551C6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				042E495325F3BB2C00DA72B7 /* GHBaseViewController.h */,
+				042E495725F3BB2D00DA72B7 /* GHBaseViewController.m */,
+				042E495525F3BB2D00DA72B7 /* GHNavigationController.h */,
+				042E495625F3BB2D00DA72B7 /* GHNavigationController.m */,
+				042E495225F3BB2C00DA72B7 /* GHTabBarController.h */,
+				042E495425F3BB2D00DA72B7 /* GHTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -103,6 +165,7 @@
 		048F865025F38AD400D551C6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				042E495C25F3BB7F00DA72B7 /* Launch */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -113,7 +176,6 @@
 				7AA3C8BD56C86D83D213B4CD /* Pods-ThirdApp.debug.xcconfig */,
 				555C909147FB51A6441400AF /* Pods-ThirdApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,6 +198,7 @@
 				048F861C25F389EB00D551C6 /* Sources */,
 				048F861D25F389EB00D551C6 /* Frameworks */,
 				048F861E25F389EB00D551C6 /* Resources */,
+				32E7839D8EF277DEE6B0C3DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +253,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		32E7839D8EF277DEE6B0C3DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThirdApp/Pods-ThirdApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThirdApp/Pods-ThirdApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThirdApp/Pods-ThirdApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BD7BB65DEAC6237519BBE57E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042E495925F3BB2D00DA72B7 /* GHNavigationController.m in Sources */,
 				048F864B25F38AB000D551C6 /* main.m in Sources */,
-				048F864A25F38AB000D551C6 /* ViewController.m in Sources */,
+				042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */,
+				042E495825F3BB2D00DA72B7 /* GHTabBarController.m in Sources */,
+				042E495A25F3BB2D00DA72B7 /* GHBaseViewController.m in Sources */,
+				042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */,
 				048F864C25F38AB000D551C6 /* AppDelegate.m in Sources */,
+				042E497425F3BB8000DA72B7 /* WindowLaunch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,12 +444,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 579P9269QX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Class/ThirdApp.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = ThirdApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.galanz.TSThirdApp.ThirdApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -379,12 +467,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 579P9269QX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Class/ThirdApp.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = ThirdApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.galanz.TSThirdApp.ThirdApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
