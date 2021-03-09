@@ -17,6 +17,8 @@
 		048F863325F389EC00D551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F863125F389EC00D551C6 /* LaunchScreen.storyboard */; };
 		048F864B25F38AB000D551C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864825F38AB000D551C6 /* main.m */; };
 		048F864C25F38AB000D551C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864925F38AB000D551C6 /* AppDelegate.m */; };
+		04DCCBF225F5D7B4004EF600 /* TSUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCBF125F5D7B4004EF600 /* TSUserListViewController.m */; };
+		04DCCBF625F5D7C8004EF600 /* TSUserListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCBF525F5D7C8004EF600 /* TSUserListModel.m */; };
 		659401974D832F75D6552731 /* Pods_ThirdApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CEBE2DF7EAAA453D9D1994 /* Pods_ThirdApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		048F864425F38AB000D551C6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048F864825F38AB000D551C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048F864925F38AB000D551C6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DCCBF025F5D7B4004EF600 /* TSUserListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUserListViewController.h; sourceTree = "<group>"; };
+		04DCCBF125F5D7B4004EF600 /* TSUserListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUserListViewController.m; sourceTree = "<group>"; };
+		04DCCBF425F5D7C8004EF600 /* TSUserListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUserListModel.h; sourceTree = "<group>"; };
+		04DCCBF525F5D7C8004EF600 /* TSUserListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUserListModel.m; sourceTree = "<group>"; };
 		24CEBE2DF7EAAA453D9D1994 /* Pods_ThirdApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C909147FB51A6441400AF /* Pods-ThirdApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdApp.release.xcconfig"; path = "Target Support Files/Pods-ThirdApp/Pods-ThirdApp.release.xcconfig"; sourceTree = "<group>"; };
 		7AA3C8BD56C86D83D213B4CD /* Pods-ThirdApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdApp.debug.xcconfig"; path = "Target Support Files/Pods-ThirdApp/Pods-ThirdApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +148,7 @@
 		048F864525F38AB000D551C6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04DCCBEB25F5D76C004EF600 /* 成员列表 */,
 				042E4A2125F3C83100DA72B7 /* 测量 */,
 				042E4A2225F3C83100DA72B7 /* 历史 */,
 				042E4A2025F3C83100DA72B7 /* 趋势 */,
@@ -168,6 +175,49 @@
 				042E495C25F3BB7F00DA72B7 /* Launch */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		04DCCBEB25F5D76C004EF600 /* 成员列表 */ = {
+			isa = PBXGroup;
+			children = (
+				04DCCBEC25F5D78C004EF600 /* Models */,
+				04DCCBED25F5D78D004EF600 /* ViewControllers */,
+				04DCCBEE25F5D78D004EF600 /* ViewModels */,
+				04DCCBEF25F5D78D004EF600 /* Views */,
+			);
+			path = "成员列表";
+			sourceTree = "<group>";
+		};
+		04DCCBEC25F5D78C004EF600 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04DCCBF425F5D7C8004EF600 /* TSUserListModel.h */,
+				04DCCBF525F5D7C8004EF600 /* TSUserListModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04DCCBED25F5D78D004EF600 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DCCBF025F5D7B4004EF600 /* TSUserListViewController.h */,
+				04DCCBF125F5D7B4004EF600 /* TSUserListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04DCCBEE25F5D78D004EF600 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04DCCBEF25F5D78D004EF600 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		374497F0915BB102A21C34CD /* Pods */ = {
@@ -299,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DCCBF225F5D7B4004EF600 /* TSUserListViewController.m in Sources */,
 				042E495925F3BB2D00DA72B7 /* GHNavigationController.m in Sources */,
 				048F864B25F38AB000D551C6 /* main.m in Sources */,
+				04DCCBF625F5D7C8004EF600 /* TSUserListModel.m in Sources */,
 				042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */,
 				042E495825F3BB2D00DA72B7 /* GHTabBarController.m in Sources */,
 				042E495A25F3BB2D00DA72B7 /* GHBaseViewController.m in Sources */,

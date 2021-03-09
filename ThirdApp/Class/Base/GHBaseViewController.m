@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.hbd_barShadowHidden = YES;
+    self.hbd_barAlpha = 0.0;
 	self.view.backgroundColor = UIColor.whiteColor;
 //    self.view.backgroundColor = ASColor(239, 239, 239, 1);
 	
