@@ -13,6 +13,7 @@
 		042E497425F3BB8000DA72B7 /* WindowLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E495D25F3BB7F00DA72B7 /* WindowLaunch.m */; };
 		042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E496625F3BB7F00DA72B7 /* KeyboardLaunch.m */; };
 		042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E497125F3BB8000DA72B7 /* LaunchHelper.m */; };
+		0476C20125F86B4700281E11 /* TSHistoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476C20025F86B4700281E11 /* TSHistoryListViewController.m */; };
 		048F863025F389EC00D551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F862F25F389EC00D551C6 /* Assets.xcassets */; };
 		048F863325F389EC00D551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F863125F389EC00D551C6 /* LaunchScreen.storyboard */; };
 		048F864B25F38AB000D551C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864825F38AB000D551C6 /* main.m */; };
@@ -38,6 +39,8 @@
 		042E497225F3BB8000DA72B7 /* KeyboardLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardLaunch.h; sourceTree = "<group>"; };
 		042E4A0525F3BC1E00DA72B7 /* ASMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMacros.h; sourceTree = "<group>"; };
 		042E4A0825F3BD5600DA72B7 /* ThirdApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdApp.pch; sourceTree = "<group>"; };
+		0476C1FF25F86B4700281E11 /* TSHistoryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHistoryListViewController.h; sourceTree = "<group>"; };
+		0476C20025F86B4700281E11 /* TSHistoryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHistoryListViewController.m; sourceTree = "<group>"; };
 		048F862025F389EB00D551C6 /* ThirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F862F25F389EC00D551C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048F863225F389EC00D551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 		042E4A2225F3C83100DA72B7 /* 历史 */ = {
 			isa = PBXGroup;
 			children = (
+				0476C1FF25F86B4700281E11 /* TSHistoryListViewController.h */,
+				0476C20025F86B4700281E11 /* TSHistoryListViewController.m */,
 			);
 			path = "历史";
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				04DCCBF625F5D7C8004EF600 /* TSUserListModel.m in Sources */,
 				042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */,
 				042E495825F3BB2D00DA72B7 /* GHTabBarController.m in Sources */,
+				0476C20125F86B4700281E11 /* TSHistoryListViewController.m in Sources */,
 				042E495A25F3BB2D00DA72B7 /* GHBaseViewController.m in Sources */,
 				042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */,
 				048F864C25F38AB000D551C6 /* AppDelegate.m in Sources */,
