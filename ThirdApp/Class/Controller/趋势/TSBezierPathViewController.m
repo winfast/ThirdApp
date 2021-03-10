@@ -40,19 +40,41 @@
 		make.top.mas_equalTo(self.segControl.mas_bottom).offset(5);
 	}];
 	
-	[self.view addSubview:self.bezierPathView];
+	NSMutableArray *tempsArray = NSMutableArray.alloc.init;
+	for (NSInteger index = 0; index < 10; ++index) {
+		TSBezierPathModel *model = TSBezierPathModel.alloc.init;
+		model.temperaturepTime = [NSString stringWithFormat:@"18:00\n2020/1/%d", index];
+		model.sheshiduValue = 36.2 + index * 0.1;
+		[tempsArray addObject:model];
+	}
+	
+	UIScrollView *scrollerView = UIScrollView.alloc.init;
+	[self.view addSubview:scrollerView];
+	[scrollerView mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.left.right.mas_equalTo(0);
+		make.height.mas_equalTo(self.view.mas_width).offset(15);
+		make.top.mas_equalTo(self.unitLabel.mas_bottom).offset(5);
+	}];
+		
+	[scrollerView addSubview:self.bezierPathView];
 	self.bezierPathView.leftAxisX = 30;
 	self.bezierPathView.rightAxisX = 16;
 	self.bezierPathView.topAxisY = 16;
 	self.bezierPathView.bottomAxisY = 30;
+	self.bezierPathView.startbottomAxisY = 45;
 	self.bezierPathView.axisXLineCount = 7;
 	self.bezierPathView.axisYAverageValue = 65;
 	[self.bezierPathView mas_makeConstraints:^(MASConstraintMaker *make) {
-		make.left.right.mas_equalTo(0);
-		make.height.mas_equalTo(self.bezierPathView.mas_width);
-		make.top.mas_equalTo(self.unitLabel.mas_bottom).offset(5);
+		make.edges.mas_equalTo(0);
+		make.height.mas_equalTo(scrollerView.mas_height);
+		CGFloat width = 60 *(tempsArray.count) + 30 + 30;
+		if (width < ASScreenWidth) {
+			width = ASScreenWidth;
+		}
+		make.width.mas_equalTo(width);
 	}];
 	
+	self.bezierPathView.dataSource = tempsArray;
 	[self.bezierPathView setNeedsDisplay];
 }
 

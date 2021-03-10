@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSBezierPathModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 //0 表示摄氏度。1 表示华氏度
 @property (nonatomic) NSInteger showTempType;
 //温度列表（按照时间排序）
-@property (nonatomic, copy) NSArray *dataSource;
+@property (nonatomic, copy) NSArray<TSBezierPathModel *> *dataSource;
 
 // y轴的平均距离
 @property (nonatomic) CGFloat axisYAverageValue;
@@ -27,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //下边移动Y
 @property (nonatomic) CGFloat bottomAxisY;
+@property (nonatomic) CGFloat startbottomAxisY;
 
 //上边移动Y
 @property (nonatomic) CGFloat topAxisY;
