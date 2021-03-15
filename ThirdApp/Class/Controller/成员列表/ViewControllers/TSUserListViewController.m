@@ -28,7 +28,9 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"添加用户" style:UIBarButtonItemStylePlain target:self action:@selector(clickLeftBtn:)];
 }
 
-- (void)clickRightBtn
+- (void)clickRightBtn {
+    
+}
 
 #pragma mark - UITableViewDelegate, UITableViewDataSource
 

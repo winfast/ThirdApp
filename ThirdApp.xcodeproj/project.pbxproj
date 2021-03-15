@@ -14,6 +14,18 @@
 		042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E496625F3BB7F00DA72B7 /* KeyboardLaunch.m */; };
 		042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E497125F3BB8000DA72B7 /* LaunchHelper.m */; };
 		0476C20125F86B4700281E11 /* TSHistoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476C20025F86B4700281E11 /* TSHistoryListViewController.m */; };
+		0478DC5225FF0FD8001EE0E7 /* TSBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC4C25FF0FD8001EE0E7 /* TSBezierPathViewController.m */; };
+		0478DC5325FF0FD8001EE0E7 /* TSBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC4E25FF0FD8001EE0E7 /* TSBezierPathView.m */; };
+		0478DC5425FF0FD8001EE0E7 /* TSBezierPathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC5125FF0FD8001EE0E7 /* TSBezierPathModel.m */; };
+		0478DC5A25FF0FF4001EE0E7 /* TSHistoryListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC5625FF0FF4001EE0E7 /* TSHistoryListTableViewCell.m */; };
+		0478DC5B25FF0FF4001EE0E7 /* TSHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC5825FF0FF4001EE0E7 /* TSHistoryModel.m */; };
+		0478DC7025FF1018001EE0E7 /* GHKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC5F25FF1018001EE0E7 /* GHKeyboardManager.m */; };
+		0478DC7125FF1018001EE0E7 /* GHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6225FF1018001EE0E7 /* GHAlertView.m */; };
+		0478DC7225FF1018001EE0E7 /* TSAddUserAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6325FF1018001EE0E7 /* TSAddUserAlertView.m */; };
+		0478DC7325FF1018001EE0E7 /* MBProgressHUD+GHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6625FF1018001EE0E7 /* MBProgressHUD+GHCategory.m */; };
+		0478DC7425FF1018001EE0E7 /* GHHudTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6825FF1018001EE0E7 /* GHHudTip.m */; };
+		0478DC7525FF1018001EE0E7 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6C25FF1018001EE0E7 /* Aspects.m */; };
+		0478DC7625FF1018001EE0E7 /* GHBLEClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC6F25FF1018001EE0E7 /* GHBLEClient.m */; };
 		048F863025F389EC00D551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F862F25F389EC00D551C6 /* Assets.xcassets */; };
 		048F863325F389EC00D551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F863125F389EC00D551C6 /* LaunchScreen.storyboard */; };
 		048F864B25F38AB000D551C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F864825F38AB000D551C6 /* main.m */; };
@@ -41,6 +53,30 @@
 		042E4A0825F3BD5600DA72B7 /* ThirdApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdApp.pch; sourceTree = "<group>"; };
 		0476C1FF25F86B4700281E11 /* TSHistoryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHistoryListViewController.h; sourceTree = "<group>"; };
 		0476C20025F86B4700281E11 /* TSHistoryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSHistoryListViewController.m; sourceTree = "<group>"; };
+		0478DC4C25FF0FD8001EE0E7 /* TSBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBezierPathViewController.m; sourceTree = "<group>"; };
+		0478DC4D25FF0FD8001EE0E7 /* TSBezierPathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBezierPathModel.h; sourceTree = "<group>"; };
+		0478DC4E25FF0FD8001EE0E7 /* TSBezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBezierPathView.m; sourceTree = "<group>"; };
+		0478DC4F25FF0FD8001EE0E7 /* TSBezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBezierPathView.h; sourceTree = "<group>"; };
+		0478DC5025FF0FD8001EE0E7 /* TSBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBezierPathViewController.h; sourceTree = "<group>"; };
+		0478DC5125FF0FD8001EE0E7 /* TSBezierPathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBezierPathModel.m; sourceTree = "<group>"; };
+		0478DC5625FF0FF4001EE0E7 /* TSHistoryListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHistoryListTableViewCell.m; sourceTree = "<group>"; };
+		0478DC5725FF0FF4001EE0E7 /* TSHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHistoryModel.h; sourceTree = "<group>"; };
+		0478DC5825FF0FF4001EE0E7 /* TSHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHistoryModel.m; sourceTree = "<group>"; };
+		0478DC5925FF0FF4001EE0E7 /* TSHistoryListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHistoryListTableViewCell.h; sourceTree = "<group>"; };
+		0478DC5E25FF1018001EE0E7 /* GHKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHKeyboardManager.h; sourceTree = "<group>"; };
+		0478DC5F25FF1018001EE0E7 /* GHKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHKeyboardManager.m; sourceTree = "<group>"; };
+		0478DC6125FF1018001EE0E7 /* TSAddUserAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAddUserAlertView.h; sourceTree = "<group>"; };
+		0478DC6225FF1018001EE0E7 /* GHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAlertView.m; sourceTree = "<group>"; };
+		0478DC6325FF1018001EE0E7 /* TSAddUserAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAddUserAlertView.m; sourceTree = "<group>"; };
+		0478DC6425FF1018001EE0E7 /* GHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAlertView.h; sourceTree = "<group>"; };
+		0478DC6625FF1018001EE0E7 /* MBProgressHUD+GHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GHCategory.m"; sourceTree = "<group>"; };
+		0478DC6725FF1018001EE0E7 /* GHHudTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHudTip.h; sourceTree = "<group>"; };
+		0478DC6825FF1018001EE0E7 /* GHHudTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHudTip.m; sourceTree = "<group>"; };
+		0478DC6925FF1018001EE0E7 /* MBProgressHUD+GHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GHCategory.h"; sourceTree = "<group>"; };
+		0478DC6B25FF1018001EE0E7 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		0478DC6C25FF1018001EE0E7 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		0478DC6E25FF1018001EE0E7 /* GHBLEClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBLEClient.h; sourceTree = "<group>"; };
+		0478DC6F25FF1018001EE0E7 /* GHBLEClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBLEClient.m; sourceTree = "<group>"; };
 		048F862025F389EB00D551C6 /* ThirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F862F25F389EC00D551C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048F863225F389EC00D551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +122,12 @@
 		042E4A2025F3C83100DA72B7 /* 趋势 */ = {
 			isa = PBXGroup;
 			children = (
+				0478DC4D25FF0FD8001EE0E7 /* TSBezierPathModel.h */,
+				0478DC5125FF0FD8001EE0E7 /* TSBezierPathModel.m */,
+				0478DC4F25FF0FD8001EE0E7 /* TSBezierPathView.h */,
+				0478DC4E25FF0FD8001EE0E7 /* TSBezierPathView.m */,
+				0478DC5025FF0FD8001EE0E7 /* TSBezierPathViewController.h */,
+				0478DC4C25FF0FD8001EE0E7 /* TSBezierPathViewController.m */,
 			);
 			path = "趋势";
 			sourceTree = "<group>";
@@ -100,10 +142,63 @@
 		042E4A2225F3C83100DA72B7 /* 历史 */ = {
 			isa = PBXGroup;
 			children = (
+				0478DC5925FF0FF4001EE0E7 /* TSHistoryListTableViewCell.h */,
+				0478DC5625FF0FF4001EE0E7 /* TSHistoryListTableViewCell.m */,
+				0478DC5725FF0FF4001EE0E7 /* TSHistoryModel.h */,
+				0478DC5825FF0FF4001EE0E7 /* TSHistoryModel.m */,
 				0476C1FF25F86B4700281E11 /* TSHistoryListViewController.h */,
 				0476C20025F86B4700281E11 /* TSHistoryListViewController.m */,
 			);
 			path = "历史";
+			sourceTree = "<group>";
+		};
+		0478DC5D25FF1018001EE0E7 /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC5E25FF1018001EE0E7 /* GHKeyboardManager.h */,
+				0478DC5F25FF1018001EE0E7 /* GHKeyboardManager.m */,
+			);
+			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		0478DC6025FF1018001EE0E7 /* GHAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC6425FF1018001EE0E7 /* GHAlertView.h */,
+				0478DC6225FF1018001EE0E7 /* GHAlertView.m */,
+				0478DC6125FF1018001EE0E7 /* TSAddUserAlertView.h */,
+				0478DC6325FF1018001EE0E7 /* TSAddUserAlertView.m */,
+			);
+			path = GHAlertView;
+			sourceTree = "<group>";
+		};
+		0478DC6525FF1018001EE0E7 /* GHHudTip */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC6625FF1018001EE0E7 /* MBProgressHUD+GHCategory.m */,
+				0478DC6725FF1018001EE0E7 /* GHHudTip.h */,
+				0478DC6825FF1018001EE0E7 /* GHHudTip.m */,
+				0478DC6925FF1018001EE0E7 /* MBProgressHUD+GHCategory.h */,
+			);
+			path = GHHudTip;
+			sourceTree = "<group>";
+		};
+		0478DC6A25FF1018001EE0E7 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC6B25FF1018001EE0E7 /* Aspects.h */,
+				0478DC6C25FF1018001EE0E7 /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		0478DC6D25FF1018001EE0E7 /* BLEClient */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC6E25FF1018001EE0E7 /* GHBLEClient.h */,
+				0478DC6F25FF1018001EE0E7 /* GHBLEClient.m */,
+			);
+			path = BLEClient;
 			sourceTree = "<group>";
 		};
 		048F861725F389EB00D551C6 = {
@@ -177,6 +272,11 @@
 		048F865025F38AD400D551C6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				0478DC6A25FF1018001EE0E7 /* Aspects */,
+				0478DC6D25FF1018001EE0E7 /* BLEClient */,
+				0478DC6025FF1018001EE0E7 /* GHAlertView */,
+				0478DC6525FF1018001EE0E7 /* GHHudTip */,
+				0478DC5D25FF1018001EE0E7 /* KeyboardManager */,
 				042E495C25F3BB7F00DA72B7 /* Launch */,
 			);
 			path = Tool;
@@ -355,12 +455,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DCCBF225F5D7B4004EF600 /* TSUserListViewController.m in Sources */,
+				0478DC5A25FF0FF4001EE0E7 /* TSHistoryListTableViewCell.m in Sources */,
+				0478DC7225FF1018001EE0E7 /* TSAddUserAlertView.m in Sources */,
+				0478DC7125FF1018001EE0E7 /* GHAlertView.m in Sources */,
+				0478DC5325FF0FD8001EE0E7 /* TSBezierPathView.m in Sources */,
 				042E495925F3BB2D00DA72B7 /* GHNavigationController.m in Sources */,
 				048F864B25F38AB000D551C6 /* main.m in Sources */,
+				0478DC7525FF1018001EE0E7 /* Aspects.m in Sources */,
+				0478DC5B25FF0FF4001EE0E7 /* TSHistoryModel.m in Sources */,
 				04DCCBF625F5D7C8004EF600 /* TSUserListModel.m in Sources */,
+				0478DC7625FF1018001EE0E7 /* GHBLEClient.m in Sources */,
 				042E497D25F3BB8000DA72B7 /* LaunchHelper.m in Sources */,
+				0478DC7325FF1018001EE0E7 /* MBProgressHUD+GHCategory.m in Sources */,
+				0478DC5425FF0FD8001EE0E7 /* TSBezierPathModel.m in Sources */,
+				0478DC7025FF1018001EE0E7 /* GHKeyboardManager.m in Sources */,
+				0478DC7425FF1018001EE0E7 /* GHHudTip.m in Sources */,
 				042E495825F3BB2D00DA72B7 /* GHTabBarController.m in Sources */,
 				0476C20125F86B4700281E11 /* TSHistoryListViewController.m in Sources */,
+				0478DC5225FF0FD8001EE0E7 /* TSBezierPathViewController.m in Sources */,
 				042E495A25F3BB2D00DA72B7 /* GHBaseViewController.m in Sources */,
 				042E497725F3BB8000DA72B7 /* KeyboardLaunch.m in Sources */,
 				048F864C25F38AB000D551C6 /* AppDelegate.m in Sources */,
