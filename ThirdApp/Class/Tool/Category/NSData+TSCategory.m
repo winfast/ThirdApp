@@ -16,6 +16,13 @@ NSString const *DeviceTempCreateTime = @"DeviceTempCreateTime";
 @implementation NSData (TSCategory)
 
 + (void)testData {
+    /*
+    tempUnit = 26
+     deviceCommand = 1
+     payloadLenth = 20
+     showTemp = 368
+     year = 20, showMoth = 3, showDay = 15, showHour = 23, minute = 15, second = 53
+     */
 	char testChar[] = {
 		0xFE,   //tou
 		0x01, 0x11, 0x22, 0x33, 0x44, 0x55, //mac 地址
